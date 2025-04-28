@@ -1,2 +1,20 @@
-public class MyHashTable {
+public class MyHashTable<K, V> {
+    private static class HashNode<K, V> {
+        public K key;
+        public V value;
+        public HashNode<K, V> next;
+
+        public HashNode(K key, V value) {
+            this.key = key;
+            this.value = value;
+        }
+
+        @Override
+        public String toString() {
+            return "{" + key + " " + value + '}';
+        }
+    };
+
+    private HashNode<K, V>[] chainingArray;
+
 }
