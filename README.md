@@ -2,7 +2,7 @@
 # by Madiyar Kenzhebayev SE-2407
 ## Started by using code in Moodle
 ### Tested HashTable and BST in Main
-### Complited all requirements from Moodle
+### Complited all requirements from Moodle and Lecture video
 
 # Main
 1. Run this file to start the program
